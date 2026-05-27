@@ -41,7 +41,7 @@ Day 6 focused on practicing Date & Timestamp functions in MySQL using real-world
 | datacreation.sql | Table creation & sample data |
 | practice_queries.sql | Practice questions |
 | solutions.sql | Query solutions |
-| outputs/ | Query screenshots |
+
 
 ---
 
