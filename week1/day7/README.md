@@ -40,7 +40,7 @@ Day 7 focused on practicing SQL JOIN operations using multiple related tables an
 | datacreation.sql | Table creation & sample data |
 | practice_queries.sql | JOIN practice questions |
 | solutions.sql | Query solutions |
-| outputs/ | Query screenshots |
+
 
 ---
 
