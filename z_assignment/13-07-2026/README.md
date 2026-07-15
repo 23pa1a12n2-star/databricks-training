@@ -2,7 +2,7 @@ SQL Mastery Hub: Concept to Query
 Welcome to my SQL practice sandbox! This repository serves as a hands-on log of my journey through database querying, structured to build core competencies from fundamental retrieval to complex data aggregations.
 
 🗺️ Core Concepts Covered
-🏗️ Phase 1: Data Retrieval Foundations.
+🏗️ Phase 1: Data Retrieval Foundations..
 The essentials of extracting and isolating specific columns and unique data subsets.
 
 SELECT (The Starting Point)
