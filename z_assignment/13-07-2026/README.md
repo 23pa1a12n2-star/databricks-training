@@ -1,91 +1,88 @@
-SQL Mastery Hub: Concept to Query
-Welcome to my SQL practice sandbox! This repository serves as a hands-on log of my journey through database querying, structured to build core competencies from fundamental retrieval to complex data aggregations.
+🚀 SQL Practice Repository
+Welcome to my SQL Practice Repository! 👋
 
-🗺️ Core Concepts Covered
-🏗️ Phase 1: Data Retrieval Foundations..
-The essentials of extracting and isolating specific columns and unique data subsets.
+📚 Topics Covered
+🔹 SELECT
+The SELECT statement is used to retrieve data from one or more columns of a table. It is the starting point of almost every SQL query.
 
-SELECT (The Starting Point)
+✅ Practice Includes
+Selecting all records
+Selecting specific columns
+Retrieving required information
+🔹 WHERE
+The WHERE clause filters records based on one or more conditions.
 
-Retrieving complete datasets (SELECT *)
+✅ Practice Includes
+Salary-based filtering
+Department-wise filtering
+City-wise filtering
+Experience-based filtering
+🔹 GROUP BY
+The GROUP BY clause groups similar records and is commonly used with aggregate functions.
 
-Isolating explicit columns for targeted data views
+✅ Aggregate Functions Practiced
+➕ SUM()
+📊 AVG()
+🔢 COUNT()
+⬆️ MAX()
+⬇️ MIN()
+🔹 HAVING
+The HAVING clause filters grouped data after applying the GROUP BY operation.
 
-Extracting essential business metrics
+✅ Practice Includes
+Filtering grouped results
+Working with aggregate functions
+Creating summary reports
+🔹 TOP
+The TOP clause limits the number of rows returned by a query.
 
-DISTINCT (Duplicate Elimination)
+💡 Note: SQL Server uses TOP, while MySQL uses LIMIT.
 
-Identifying unique corporate departments and geographical locations
+✅ Practice Includes
+Highest salaries
+Top experienced employees
+Top records from specific departments
+🔹 DISTINCT
+The DISTINCT keyword returns only unique values by removing duplicate records.
 
-Filtering unique compensation/salary values
+✅ Practice Includes
+Unique departments
+Unique cities
+Unique salary values
+Distinct column combinations
+🔹 Comparison Operators
+Comparison operators help compare values while filtering data.
 
-Combining multiple columns for unique record pairs
+✅ Operators Covered
+=
+>
+<
+>=
+<=
+<>
+🔹 Logical Operators
+Logical operators combine multiple conditions within a query.
 
-TOP / LIMIT (Result Constraints)
+✅ Operators Covered
+🤝 AND
+🔀 OR
+🚫 NOT
+🔹 IN & NOT IN
+Used to filter records based on a list of values, making queries simpler and more readable.
 
-Isolating highest earners and top-performing employees
+🔹 BETWEEN
+Retrieves records whose values fall within a specified range.
 
-Fetching the most experienced staff records
+✅ Practice Includes
+Salary ranges
+Experience ranges
+Employee ID ranges
+🔹 LIKE
+The LIKE operator performs pattern matching using wildcard characters.
 
-Extracting specific row quotas per department
+✅ Wildcards
+% → Zero or more characters
+_ → Exactly one character
+If you found this repository helpful, feel free to ⭐ Star it.
 
-💡 Engine Note: Queries utilize SQL Server's TOP clause or MySQL's LIMIT keyword depending on the targeted environment.
-
-🔍 Phase 2: Conditional Filtering & Pattern Matching
-Fine-tuning query outputs using granular logic, boundary constraints, and string searches.
-
-WHERE (Row-Level Filtering)
-
-Segmenting data by specific departments or cities
-
-Filtering records based on threshold experience and salary brackets
-
-Operators & Logical Controls
-
-Comparison: =, >, <, >=, <=, <> (Not Equal)
-
-Logical: AND (Multi-condition matching), OR (Alternative matching), NOT (Inversion)
-
-Set & Range Membership
-
-IN & NOT IN: Streamlining lookups against explicit value lists
-
-BETWEEN: Scanning inclusive ranges (e.g., fixed salary scales, ID spans, experience windows)
-
-LIKE (Advanced Wildcard Searching)
-
-% placeholder for matching zero or more characters
-
-_ placeholder for strict single-character matching
-
-📊 Phase 3: Analytical Grouping & Aggregations
-Transforming raw rows into structured, high-level summary insights.
-
-GROUP BY (Data Categorization)
-
-Consolidating identical rows to analyze department or regional trends.
-
-Aggregate Mathematical Functions
-
-➕ SUM() — Calculating financial and numeric totals
-
-📊 AVG() — Evaluating performance and compensation averages
-
-🔢 COUNT() — Tracking inventory, staff, and transactional volume
-
-⬆️ MAX() / ⬇️ MIN() — Identifying peak values and baseline minimums
-
-HAVING (Post-Aggregation Filtering)
-
-Applying structural conditions to grouped outputs
-
-Isolating summary metrics that meet specific business rules
-
-Generating polished, high-level reporting data
-
-🚀 How to Use This Repo
-Feel free to browse the folders to look at script files organized by topic.
-
-If this collection helps you sharpens your query skills, give it a ⭐ Star!
-
-Happy Querying! 🐍💻
+Happy Learning & Happy Coding! 💙🚀
