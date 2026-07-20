@@ -1,5 +1,7 @@
 # SQL Joins Practice Hub
 
+---
+
 Welcome to the **SQL Joins Practice Hub**. This repository is dedicated to mastering SQL JOIN operations through structured practice assignments and real-world relational database scenarios.
 
 The exercises are designed to strengthen the understanding of how multiple tables interact and how meaningful information can be extracted by combining related datasets.
@@ -145,26 +147,6 @@ These tables simulate a real-world organizational database and provide practical
 - Business report generation
 - NULL handling
 - Query optimization fundamentals
-
----
-
-
-## How to Use
-
-1. Clone this repository.
-2. Open the SQL scripts in your preferred SQL environment.
-3. Execute the queries in order of difficulty.
-4. Analyze the output.
-5. Modify and experiment with your own queries for deeper understanding.
-
----
-
-
-## Tools Used
-
-- MySQL
-- MySQL Workbench
-- SQL Server (Compatible Queries)
 
 ---
 
