@@ -9,18 +9,29 @@ This repository contains my SQL Join practice exercises completed while learning
 ```text
 Assignments
 └── 📁 15-07-2026
-    ├── 📄 01_Inner_Join.sql
-    ├── 📄 02_Left_Join.sql
-    ├── 📄 03_Right_Join.sql
-    ├── 📄 04_Full_Join.sql
-    ├── 📄 05_Left_Anti_Join.sql
-    ├── 📄 06_Right_Anti_Join.sql
-    └── 📄 07_Full_Anti_Join.sql
+    ├── 📄 01_DataCreation.sql
+    ├── 📄 02_Inner_Join.sql
+    ├── 📄 03_Left_Join.sql
+    ├── 📄 04_Right_Join.sql
+    ├── 📄 05_Full_Join.sql
+    ├── 📄 06_Left_Anti_Join.sql
+    ├── 📄 07_Right_Anti_Join.sql
+    └── 📄 08_Full_Anti_Join.sql
 ```
 
 ---
 
 ## 📚 Join Concepts Practiced
+
+### 🔸 Data Creation
+Database setup script used for all join assignments.
+
+- Database creation
+- Table creation
+- Primary & Foreign Keys
+- Sample data insertion
+
+---
 
 ### 🔸 INNER JOIN
 Retrieves only the records that have matching values in both tables.
@@ -94,7 +105,7 @@ Retrieves all records that don't have matching values in either table.
 
 ---
 
-## 🗄️ Tables Used
+## 🗄️ Database Tables
 
 - 🏢 Departments
 - 👨‍💼 Employees
@@ -107,6 +118,8 @@ Retrieves all records that don't have matching values in either table.
 
 Through these assignments, I gained hands-on experience with:
 
+- ✅ Database Creation
+- ✅ Table Relationships
 - ✅ INNER JOIN
 - ✅ LEFT JOIN
 - ✅ RIGHT JOIN
@@ -131,4 +144,4 @@ Through these assignments, I gained hands-on experience with:
 
 ### 🌟 Thanks for visiting!
 
-Feel free to browse the SQL scripts, practice the queries, and use them as a reference for improving your SQL join concepts.
+Feel free to explore the SQL scripts, run the database creation script first, and use these assignments to strengthen your understanding of SQL joins.
